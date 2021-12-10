@@ -36,41 +36,41 @@
 //  Добавьте каждому комментарию по кнопке для сворачивания его body.
 
 
-
-let arrComent = [
-    {
-        title: 'Петро з америки',
-        body: 'didnt really like this song when i first heard it, but listening to it again and again you realize what a phenomenal song it truly is!'
-    },
-    {
-        title: 'Дядяко з америки',
-        body: 'the passion put into this beautiful piece of work is amazing!'
-    },
-    {
-        title: 'Цьотка з америки',
-        body: 'I havent heard anything so beautiful like this in my life'
-    }
-]
-
-for (const item of arrComent) {
-    let wrapDiv = document.createElement('div');
-    let titleComents = document.createElement('h2');
-    titleComents.innerText = `${item.title}`;
-    let btnOpenBodyComent = document.createElement('button');
-    btnOpenBodyComent.innerText = `Click`;
-    let bodyComents = document.createElement('p');
-    bodyComents.innerText = `${item.body}`;
-    bodyComents.classList.add('close');
-    btnOpenBodyComent.addEventListener('click', function () {
-    if (bodyComents.classList.contains('open')){
-        bodyComents.classList.remove('open');
-    }else {
-        bodyComents.classList.add('open');
-    }
-    })
-    document.body.appendChild(wrapDiv);
-    wrapDiv.appendChild(titleComents);
-    wrapDiv.appendChild(btnOpenBodyComent);
-    wrapDiv.appendChild(bodyComents);
-}
-
+//
+// let arrComent = [
+//     {
+//         title: 'Петро з америки',
+//         body: 'didnt really like this song when i first heard it, but listening to it again and again you realize what a phenomenal song it truly is!'
+//     },
+//     {
+//         title: 'Дядяко з америки',
+//         body: 'the passion put into this beautiful piece of work is amazing!'
+//     },
+//     {
+//         title: 'Цьотка з америки',
+//         body: 'I havent heard anything so beautiful like this in my life'
+//     }
+// ]
+//
+// for (const item of arrComent) {
+//     let wrapDiv = document.createElement('div');
+//     let titleComents = document.createElement('h2');
+//     titleComents.innerText = `${item.title}`;
+//     let btnOpenBodyComent = document.createElement('button');
+//     btnOpenBodyComent.innerText = `Click`;
+//     let bodyComents = document.createElement('p');
+//     bodyComents.innerText = `${item.body}`;
+//     bodyComents.classList.add('close');
+//     btnOpenBodyComent.addEventListener('click', function () {
+//     if (bodyComents.classList.contains('open')){
+//         bodyComents.classList.remove('open');
+//     }else {
+//         bodyComents.classList.add('open');
+//     }
+//     })
+//     document.body.appendChild(wrapDiv);
+//     wrapDiv.appendChild(titleComents);
+//     wrapDiv.appendChild(btnOpenBodyComent);
+//     wrapDiv.appendChild(bodyComents);
+// }
+//

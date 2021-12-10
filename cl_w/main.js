@@ -56,15 +56,16 @@
 // Потрібно перевіряти чи не містить ціле речення в собі погані слова.
 // Кинути алерт з попередженням у випадку якщо містить.
 // Перевірку робити при натисканні на кнопку
-let badWordsArr = ['сука', 'блять', 'йди нахуй', 'чамара', 'уєбан', 'уйобок'];
-let btnCheck = document.getElementById('btn_check');
-btnCheck.addEventListener('click', function () {
-    let wordInput = document.getElementById('word_check').value;
-    for (const word of badWordsArr) {
-        // if (wordInput.search(word) === -1){
-        //     alert('Не матюкайся')
-        // }
-        console.log(word);
-    }
-})
+// let badWordsArr = ['сука', 'блять', 'йди нахуй', 'чамара', 'уєбан', 'уйобок'];
+// let btnCheck = document.getElementById('btn_check');
+// btnCheck.addEventListener('click', function () {
+//     let wordInput = document.getElementById('word_check').value;
+//     for (const word of badWordsArr) {
+//         let catchBadWord =  wordInput.indexOf(`${word}`);
+//         if (!(catchBadWord === -1)){
+//             alert('Не матюкайся');
+//         }
+//     }
+// })
+//
 
